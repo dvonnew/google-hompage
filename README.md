@@ -1,0 +1,2 @@
+This is my google hompage project, my first with the odin project, where I will deconstruct the google homepage and rebuild it myself... I guess?
+This will require me to utilize the HTML and CSS skills I learned in the FreeCodeCamp HTML and CSS tutorial
