@@ -52,6 +52,19 @@
     
 }
 
+.icon{
+    height: 25px;
+    display: flex;
+    margin-bottom: 2px;
+    border-radius: 50%;
+    padding: 2px;
+    
+}
+
+.icon:hover{
+    background-color: rgb(224, 224, 224);
+}
+
 .logo{
     position: absolute;
     top: 18%;
@@ -82,8 +95,6 @@
     width: 550px;
     
 }
-
-@media (min-width: 250px;).search-box
 
 .search-box:hover{
     box-shadow: 2px 2px 2px 2px rgb(224, 224, 224);
