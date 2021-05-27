@@ -1,157 +1,192 @@
-#header{
-    position: fixecd;
+.navbar-box{
+    position: absolute;
     width: 100%;
+    height: 5%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    margin-top: 10px;
-    
+    font-size: 14px; 
 }
 
-#header a:link{
+.navbar-box a:link{
     text-decoration: none;
     color: black;
 }
 
-#header a:visited{
+.navbar-box a:visited{
     color: black;
 }
 
-a:hover{
+.navbar-box a:hover{
     text-decoration: underline;
+
 }
 
-#header li{
+*:focus {
+    outline: none;
+}
+
+.navbar-box ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-box li{
     display: inline;
 }
 
-#about{
+.left-head{
     float: left;
-    display: block;
-    padding: 8px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
     
 }
 
-#store{
-    float: left;
+.right-head{
+    float: right;
     display: block;
-    padding: 8px;
+    padding: 10px;
+    justify-content: flex-end;
+    align-items: flex-end;
     
 }
 
-#gmail{
-    float: right;
-    display: block;
-    padding: 8px;
+.logo{
+    position: absolute;
+    top: 18%;
+    left: 39%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#images{
-    float: right;
-    display: block;
-    padding: 8px;
+#google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#apps{
-    float: right;
-    display: block;
-    padding: 8px;
-}
-
-#account{
-    float: right;
-    display: block;
-    display: block;
-    padding: 8px;
-}
-
-#logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
-    padding-top: 8%; 
+.search-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(255, 255, 255);
+    height: 25px;
+    padding: 10px;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: rgb(194, 194, 194);
+    border-width: 1px;
+    width: 550px;
     
 }
 
-#search-bar{
-    display:block;
-    margin: 0 auto;
-    width: 500px;
-    height: 30px;
-    border-color: rgb(201, 201, 201);
-}
+@media (min-width: 250px;).search-box
 
-#search-bar:hover{
+.search-box:hover{
     box-shadow: 2px 2px 2px 2px rgb(224, 224, 224);
 
 }
 
-.button{
+.search-btn{
+    color: rgb(204, 199, 199);
+    float: left;
+    height: 30px;
+    width: 10%;
     display: flex;
-    margin-top: 25px;
-    
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+
 }
 
-#button1{
-    padding: 5px 5px 5px 5px;
-    margin-left: 41%;
-    
-}
-#button2{
-    padding: 5px 5px 5px 5px;
-    margin-right: 50%;
+.search-txt{
+    border: none;
+    background: none;
+    float: right;
+    padding: 0;
+    font-size: 14px;
+    line-height: 30px;
+    width: 90%;
+    border-color: black;
+
 }
 
-#footer-nav{
+.submit-box{
+    position: absolute;
+    top: 45%;
+    left:38%;
+    margin: 20px;
+    padding: 5px;
+}
+
+.submit-btn{
+    padding: 8px 11px;
+    border-radius: 5px;
+    background-color: rgb(247, 242, 242);
+    border: none;
+}
+
+.submit-btn:hover{
+    border-style: solid;
+    border-color:rgb(133, 133, 133);
+    border-width: 1px;
+}
+
+
+.footer-nav{
     position: absolute;
     bottom: 0px;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(219, 216, 216);
     width: 100%;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 13px;
 }
 
-#footer a:link{
+.footer a:link{
     text-decoration: none;
     color:rgb(133, 133, 133);
 }
 
-#footer a:hover{
+.footer a:hover{
     text-decoration: underline;
 }
 
-#footer a:visited{
+.footer a:visited{
     color:rgb(133, 133, 133);
 }
 
-#footer li{
+.footer li{
     display: inline;
 }
 
 .left-foot{
     float: left;
-    display: block;
-    padding-left: 8px;
-    padding-top: 10px;
-    padding-bottom: 15px;
-    margin-right: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 13px;
     
 }
 
 .center-foot{
-    float: left;
-    display: block;
-    padding-left: 250px;
-    padding-top: 8px;
-    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
+#carbon{
+    padding-left: 15%;
+}
 .right-foot{
     float: right;
-    display: block;
-    padding-right: 15px;
-    padding-top: 8px;
-    padding-bottom: 15px;
-    margin-right: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 15px;
     
 }
 
