@@ -5,49 +5,74 @@
         <link href='styles/styles.css' rel='stylesheet'>
         <script src="https://kit.fontawesome.com/2279ac3572.js" crossorigin="anonymous"></script>
         <title>Google</title>
-        <div class='navbar-box'>
-            <nav class="navbar">
-                <ul>
-                    <li class="left-head"><a href="https://about.google/">About</a></li>
-                    <li class="left-head"><a href="https://store.google.com/?hl=en-US">Store</a></li>
-                    <li class="right-head"><a href=""><img class='icon' src='images/outline_account_circle_black_36dp.png'></a></li>
-                    <li class="right-head"><a href=""><img class='icon' src="images/outline_apps_black_24dp.png"></a></li>
-                    <li class="right-head"><a href="https://www.google.com/imghp?hl=en&authuser=0&ogbl">Images</a></li>
-                    <li class="right-head"><a href="https://mail.google.com/mail">Gmail</a></li>
-                </ul>
-            </nav>
-        </div>
     </head>
     <body>
-        <div class="container">
-            <div class='logo'>
-            <img src='images/google-logo.png' alt='google-logo' id='google'>
+        <div class="layout">
+            <div class='navbar-box'>
+                    <a class="left-nav" id="about" href="https://about.google/">About</a>
+                    <a class="left-nav" href="https://store.google.com/?hl=en-US">Store</a>
+                <div class="right-nav">
+                    <div class="r-nav-box">
+                        <div class='r-nav-items'>
+                            <div>
+                                <div class='tr-text'>
+                                    <a class="tr-items" href="https://mail.google.com/mail">Gmail</a>
+                                    <a class="tr-items" href="https://www.google.com/imghp?hl=en&authuser=0&ogbl">Images</a>
+                                </div>
+                            </div>
+                            <div class="icon">
+                                <div class="app">
+                                    <div class="app1">
+                                            <a href=""><img id="apicon" src="images/outline_apps_black_24dp.png"></a>
+                                    </div>
+                                </div>
+                                <div class="account">
+                                    <a href=""><img id="acticon"src='images/outline_account_circle_black_36dp.png'></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="search-box">
-                <a class="search-btn" href="#">
-                    <i class="fas fa-search"></i>
-                </a>
-                <input class="search-txt" type='text' placeholder="Search...">
+            <div class="logo-box">
+                <div class="logo">
+                <img src='images/google-logo.png' alt='google-logo' id='google'>
+                </div>
             </div>
-            <div class="submit-box">
-                <input class='submit-btn' type="submit" value="Google Search">
-                <input class='submit-btn'type="submit" value="I'm Feeling Lucky">
+            <div class='search'>
+                <div class="search-box">
+                    <a class="search-btn" href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                    <input class="search-txt" type='text' placeholder="Search...">
+                </div>
+            </div>
+            <div class="submit">
+                <div class="submit-box">
+                    <input class='submit-btn' type="submit" value="Google Search">
+                    <input class='submit-btn'type="submit" value="I'm Feeling Lucky">
+                </div>
+            </div>
+            <div class="whitespace">
+
+            </div>
+            <div class="footer-nav">
+                <a class="left-foot" id="ad" href="https://ads.google.com/home/?pli=1#!/">Advertising</a>
+                <a class="left-foot" href="https://smallbusiness.withgoogle.com/">Business</a>
+                <a class="left-foot" href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a>
+                <div class="center-foot">
+                    <a href="https://sustainability.google/commitments/">Carbon Nuetral Since 2007</a>
+                </div>
+                    <div class="right-foot">
+                        <div class="rf-box">
+                            <div class="rf-items">
+                                <a class="rfi" href="">Settings</a>
+                                <a class="rfi" href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
+                                <a class="rfi" id="priv" href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
-    </body>
-    <footer>
-        <div class="footer-nav">
-            <nav class="footer">
-                <ul>
-                    <li class="left-foot"><a href="https://ads.google.com/home/?pli=1#!/">Advertising</a></li>
-                    <li class="left-foot"><a href="https://smallbusiness.withgoogle.com/">Business</a></li>
-                    <li class="left-foot"><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
-                    <li class="center-foot" id="carbon"><a href="https://sustainability.google/commitments/">Carbon Nuetral Since 2007</a></li>
-                    <li class="right-foot"><a href="">Settings</a></li>
-                    <li class="right-foot"><a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a></li>
-                    <li class="right-foot"><a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a></li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
-</html>
+</body>
+</html
